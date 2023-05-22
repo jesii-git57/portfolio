@@ -1,0 +1,179 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+.hero{
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.image{
+  height: auto;
+  margin-top: 200px;
+  padding-left: 200px;
+  width: 600px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.logo {
+  font-size: 40px;
+  color: lightgreen;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color:lightgreen;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+}
+
+nav ul li a {
+  color: lightgreen;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li:hover {
+  color: red;
+  transition: .4s;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+h4 {
+  color: lightgreen;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.about {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.main h2 {
+  color: lightgreen;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main h5 {
+  color: lightgreen;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.main p {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.education {
+  background-color: #191919;
+  padding: 100px 0px;
+}
+
+.school h2 {
+  color: lightgreen;
+  font-size: 50px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #2f2e2e;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+h5 {
+  color: lightgreen;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pra p {
+  color: whitesmoke;
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.contact {
+  background-color: #191919;
+  padding: 100px 0px;
+  color: white;
+}
+
+.contact h6 {
+  color: lightgreen;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  padding: 60px 0px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.social {
+  margin-top: 40px;
+}
+
+.social a {
+  margin-right: 20px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
